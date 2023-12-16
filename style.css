@@ -33,6 +33,7 @@ body {
 .navbar__logo__titulo {
     color: var(--cinza-logo);
     font-size: 1.125rem;
+    text-decoration: none;
 }
 
 .navbar__container {
@@ -80,7 +81,37 @@ body {
 .cabecalho__texto {
     color: var(--cinza-principal);
     font-size: 1.25rem;
-    margin: auto;
+    margin: 0 auto;
     width: 49.4375rem;
+}
+
+.metricas {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    width: 80%;
+}
+
+.metricas__content {
+    width: 25%;
+}
+
+.metricas__content__numero {
+    color: var(--cor-destaque);
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+}
+
+.metricas__content__titulo {
+    color: var(--cinza-titulos);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 0.75rem 0;
+}
+
+.metricas__content__texto {
+    color: var(--cinza-principal);
 }
 

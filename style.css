@@ -7,6 +7,7 @@
     --cinza-principal: #667085;
     --cinza-titulos: #101828;
     --cor-de-fundo: #ffffff;
+    --cor-borda: #EAECF0;
 
     --fonte-principal: 'Inter', sans-serif;
 }
@@ -66,6 +67,11 @@ body {
     text-align: center;
 }
 
+.secao-dois {
+    margin: 0 auto;
+    padding: 0 7rem 6rem 7rem;
+}
+
 .texto__container {
     margin: 0 auto;
     width: 49.4375rem;
@@ -91,8 +97,6 @@ body {
 .metricas {
     display: flex;
     gap: 2rem;
-    margin: 0 auto;
-    padding: 0 7rem 6rem 7rem;
 }
 
 .metricas__content {
@@ -162,6 +166,8 @@ body {
 }
 
 .vagas__lista__item {
+    border: 1px solid var(--cor-borda);
+    border-radius: 1rem;
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
 }
 
@@ -184,4 +190,36 @@ body {
 
 .lista-design {
     margin-bottom: 4rem;
+}
+
+.depoimentos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.depoimentos__container__titulo {
+    color: var(--cor-destaque);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.depoimentos__container__subtitulo {
+    color: var(--cinza-titulos);
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.depoimentos__perfil__nome {
+    color: var(--cinza-titulos);
+    font-weight: 500;  
+    margin-top: 1rem;  
+}
+
+.depoimentos__perfil__cargo {
+    color: var(--cinza-principal);
+    font-size: 0.875rem;
 }

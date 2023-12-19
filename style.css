@@ -61,36 +61,38 @@ body {
     padding: 0.625rem 1.125rem;
 }
 
-.cabecalho {
-    padding: 6rem 0;
+.secao-um {
+    padding: 6rem 7rem;
     text-align: center;
 }
 
-.cabecalho__subtitulo {
+.texto__container {
+    margin: 0 auto;
+    width: 49.4375rem;
+}
+
+.cabecalho__titulo {
     color: var(--cor-destaque);
     font-weight: 600;
 }
 
-.cabecalho__titulo {
+.cabecalho__subtitulo {
     color: var(--cinza-titulos);
     font-size: 3rem;
     font-weight: 600;
     margin: 1.5rem 0;
 }
 
-.cabecalho__texto {
+.secao__texto {
     color: var(--cinza-principal);
     font-size: 1.25rem;
-    margin: 0 auto;
-    width: 49.4375rem;
 }
 
 .metricas {
     display: flex;
     gap: 2rem;
     margin: 0 auto;
-    padding-bottom: 6rem;
-    width: 80%;
+    padding: 0 7rem 6rem 7rem;
 }
 
 .metricas__content {
@@ -115,3 +117,71 @@ body {
     color: var(--cinza-principal);
 }
 
+.secao__titulo {
+    color: var(--cor-destaque);
+    font-size: 0.875rem;
+    font-weight: 500;
+    
+}
+
+.secao__subtitulo {
+    color: var(--cinza-titulos);
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 1.25rem auto;
+}
+
+.titulo-vagas {
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+}
+
+.secao__imagem {
+    margin: 4rem auto;
+    max-width: 80vw;
+}
+
+.vagas {
+    margin: 0 20%;
+    text-align: left;
+}
+
+.vagas__titulo {
+    color: var(--cinza-titulos);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.vagas__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.vagas__lista__item {
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+}
+
+.vagas__lista__subtitulo {
+    color: var(--cinza-titulos);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.vagas__lista__texto-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.vagas__lista__texto {
+    color: var(--cinza-principal);
+    font-weight: 500;
+}
+
+.lista-design {
+    margin-bottom: 4rem;
+}
